@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3321EC76241174110023A5F0 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3321EC75241174110023A5F0 /* URL+Helpers.swift */; };
+		3321EC78241175110023A5F0 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3321EC77241175110023A5F0 /* PhotoInfoController.swift */; };
 		33E8E116240D63D50064A06B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E8E115240D63D50064A06B /* AppDelegate.swift */; };
 		33E8E118240D63D50064A06B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E8E117240D63D50064A06B /* SceneDelegate.swift */; };
 		33E8E11A240D63D50064A06B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E8E119240D63D50064A06B /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		33E8E122240D63D90064A06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E8E120240D63D90064A06B /* LaunchScreen.storyboard */; };
 		33E8E12D240D63D90064A06B /* SpacePhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E8E12C240D63D90064A06B /* SpacePhotoTests.swift */; };
 		33E8E138240D63D90064A06B /* SpacePhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E8E137240D63D90064A06B /* SpacePhotoUITests.swift */; };
+		33E93793240FEA3A009DCA8C /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E93792240FEA3A009DCA8C /* PhotoInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3321EC75241174110023A5F0 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
+		3321EC77241175110023A5F0 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
 		33E8E112240D63D50064A06B /* SpacePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E8E115240D63D50064A06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33E8E117240D63D50064A06B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		33E8E133240D63D90064A06B /* SpacePhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33E8E137240D63D90064A06B /* SpacePhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePhotoUITests.swift; sourceTree = "<group>"; };
 		33E8E139240D63D90064A06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E93792240FEA3A009DCA8C /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				33E8E117240D63D50064A06B /* SceneDelegate.swift */,
 				33E8E119240D63D50064A06B /* ViewController.swift */,
 				33E8E11B240D63D50064A06B /* Main.storyboard */,
+				3321EC75241174110023A5F0 /* URL+Helpers.swift */,
+				3321EC77241175110023A5F0 /* PhotoInfoController.swift */,
+				33E93792240FEA3A009DCA8C /* PhotoInfo.swift */,
 				33E8E11E240D63D90064A06B /* Assets.xcassets */,
 				33E8E120240D63D90064A06B /* LaunchScreen.storyboard */,
 				33E8E123240D63D90064A06B /* Info.plist */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E93793240FEA3A009DCA8C /* PhotoInfo.swift in Sources */,
+				3321EC76241174110023A5F0 /* URL+Helpers.swift in Sources */,
+				3321EC78241175110023A5F0 /* PhotoInfoController.swift in Sources */,
 				33E8E11A240D63D50064A06B /* ViewController.swift in Sources */,
 				33E8E116240D63D50064A06B /* AppDelegate.swift in Sources */,
 				33E8E118240D63D50064A06B /* SceneDelegate.swift in Sources */,
